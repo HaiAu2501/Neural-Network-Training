@@ -8,6 +8,10 @@ Neural Architecture Search is a cutting-edge area in machine learning, focusing 
 * **Diverse Applications:** Applying NAS in various domains like image recognition, natural language processing, and more.
 * **Collaborative Environment:** Encouraging contributions and collaborations from the community.
 
+# Guide to Navigating This Repository
+To help you navigate and understand our project efficiently, we've organized the files and directories in a specific order. Here's a quick guide on the order in which you should read the files to get a comprehensive understanding of our work:
+1. [README.md][README.md]: This is your starting point. The README file provides an overview of the project, including its purpose, features, and how to set it up.
+
 # State-of-the-Art Approaches in Neural Architecture Search
 Our project aligns with current trends in NAS by incorporating some of the most powerful and widely-adopted methods in this research area. Here is an overview of these approaches:
 # Evolutionary Algorithms

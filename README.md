@@ -16,13 +16,13 @@ Our project aligns with current trends in NAS by incorporating some of the most 
 
 > In our exploration of Evolutionary Algorithms (EAs) for Neural Architecture Search (NAS), a pivotal aspect is the multi-objective optimization. This approach is essential for balancing various competing factors in neural network design, such as accuracy, computational complexity, memory usage, and energy efficiency.
 > 
->> Balancing Competing Factors: The core challenge in NAS is not solely maximizing accuracy, but rather finding an architecture that offers an optimal balance between performance and resource constraints. EAs are uniquely equipped to handle this challenge due to their ability to evolve a diverse set of solutions concurrently.
+>> *Balancing Competing Factors:* The core challenge in NAS is not solely maximizing accuracy, but rather finding an architecture that offers an optimal balance between performance and resource constraints. EAs are uniquely equipped to handle this challenge due to their ability to evolve a diverse set of solutions concurrently.
 >
->> Pareto Front Exploration: Our focus is on identifying the Pareto front of solutions, where each solution is not dominated by any other in all objectives. This method ensures that the architectures we discover are not just good in one aspect (like accuracy) but are also efficient in terms of computational resources and other factors.
+>> *Pareto Front Exploration:* Our focus is on identifying the Pareto front of solutions, where each solution is not dominated by any other in all objectives. This method ensures that the architectures we discover are not just good in one aspect (like accuracy) but are also efficient in terms of computational resources and other factors.
 >
->> Customized Fitness Functions: To evaluate and rank architectures, we implement customized fitness functions within the evolutionary process. These functions are designed to assess multiple criteria simultaneously, providing a comprehensive measure of an architecture's overall effectiveness.
+>> *Customized Fitness Functions:* To evaluate and rank architectures, we implement customized fitness functions within the evolutionary process. These functions are designed to assess multiple criteria simultaneously, providing a comprehensive measure of an architecture's overall effectiveness.
 >
->> Diverse Architectural Innovations: By leveraging EAs for multi-objective optimization, we aim to uncover a range of architectures that offer diverse trade-offs. This variety is crucial for catering to different application needs, where the importance of objectives like speed, size, and accuracy can vary greatly.
+>> *Diverse Architectural Innovations:* By leveraging EAs for multi-objective optimization, we aim to uncover a range of architectures that offer diverse trade-offs. This variety is crucial for catering to different application needs, where the importance of objectives like speed, size, and accuracy can vary greatly.
 >
 > Through the integration of multi-objective optimization in our evolutionary algorithms, we aim to push the boundaries of NAS, uncovering efficient and effective neural network architectures that are well-suited to a variety of real-world applications.
 

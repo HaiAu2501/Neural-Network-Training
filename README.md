@@ -27,4 +27,5 @@ Our project aligns with current trends in NAS by incorporating some of the most 
 * Benefits: By using predictive models, NAS can be accelerated, allowing for quicker iterations and exploration of more diverse architectures.
 # Hybrid Approaches
 * Integration of Methods: We also explore hybrid approaches, which combine elements of different methods (like evolutionary algorithms with RL) to leverage their complementary strengths and mitigate limitations.
+
 Our research is dedicated to not only implementing these state-of-the-art methods but also to innovating and contributing to the evolution of NAS techniques. We aim to push the boundaries of what's possible in automated neural network design.

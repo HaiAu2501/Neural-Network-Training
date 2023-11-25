@@ -1,66 +1,74 @@
-# Neural Network Training
-Welcome to our GitHub repository dedicated to advancing the field of Neural Network Training with a special emphasis on Neural Architecture Search (NAS). Our goal is to explore, develop, and share innovative algorithms and techniques in NAS that enhance the efficiency and effectiveness of neural network models.
-# Introduction
-Neural Architecture Search is a cutting-edge area in machine learning, focusing on automating the design of neural network architectures. Our research is aimed at developing new algorithms that can efficiently search and optimize network architectures for various machine learning tasks.
-# Features
-* **Automated Architecture Design:** Implementing algorithms that automatically design optimal neural network architectures.
-* **Performance Optimization:** Techniques to enhance the computational efficiency and accuracy of neural networks.
-* **Diverse Applications:** Applying NAS in various domains like image recognition, natural language processing, and more.
-* **Collaborative Environment:** Encouraging contributions and collaborations from the community.
+# Huấn luyện Mạng thần kinh nhân tạo
+Chào mừng bạn đến với kho lưu trữ GitHub của chúng tôi, tập trung vào việc phát triển lĩnh vực Huấn luyện Mạng Nơ-ron với sự quan tâm đặc biệt vào Tìm kiếm Kiến trúc Mạng Nơ-ron (NAS). Mục tiêu của chúng tôi là khám phá, phát triển và chia sẻ các thuật toán, kỹ thuật sáng tạo trong NAS để tăng cường hiệu quả và hiệu suất của các mô hình mạng nơ-ron.
 
-# Guide to Navigating This Repository
-To help you navigate and understand our project efficiently, we've organized the files and directories in a specific order. Here's a quick guide on the order in which you should read the files to get a comprehensive understanding of our work:
-1. [README.md](README.md): This is your starting point. The README file provides an overview of the project, including its purpose, features, and how to set it up.
+# Giới thiệu
+Tìm kiếm Kiến trúc Mạng Nơ-ron là một lĩnh vực tiên tiến trong học máy, tập trung vào việc tự động hóa thiết kế kiến trúc mạng nơ-ron. Nghiên cứu của chúng tôi nhằm phát triển các thuật toán mới có thể tìm kiếm và tối ưu hóa hiệu quả kiến trúc mạng cho các nhiệm vụ học máy khác nhau.
+
+# Tính năng
+* **Thiết kế kiến trúc tự động:** Triển khai các thuật toán tự động thiết kế kiến trúc mạng nơ-ron tối ưu.
+* **Tối ưu hóa hiệu suất:** Kỹ thuật để tăng cường hiệu quả tính toán và độ chính xác của mạng nơ-ron.
+* **Ứng dụng đa dạng:** Áp dụng NAS trong các lĩnh vực khác nhau như nhận dạng hình ảnh, xử lý ngôn ngữ tự nhiên và hơn thế nữa.
+* **Môi trường hợp tác:** Khuyến khích đóng góp và hợp tác từ cộng đồng.
+
+# Hướng dẫn sử dụng Kho lưu trữ
+Để giúp bạn điều hướng và hiểu dự án của tôi một cách hiệu quả, chúng tôi đã sắp xếp các tệp và thư mục theo một thứ tự cụ thể. Dưới đây là hướng dẫn nhanh về thứ tự bạn nên đọc các tệp để hiểu toàn diện về công việc của chúng tôi:
+
+1. [README.md](README.md): Đây là điểm khởi đầu của bạn. Tệp README cung cấp một cái nhìn tổng quan về dự án, bao gồm mục đích, tính năng và cách thiết lập.
    
-3. [MachineLearning](MachineLearning.pdf): This file in our GitHub repository provides an overview of basic Machine Learning (ML) algorithms. It's a go-to resource for understanding the foundational concepts and techniques in ML, covering key algorithms and their applications. Ideal for both beginners and those seeking a quick refresher, this file encompasses:
-* Supervised Learning: Introduction to algorithms like Linear Regression and Decision Trees, highlighting their uses in predictive modeling.
-* Unsupervised Learning: Overview of clustering and dimensionality reduction techniques.
-* Neural Networks: A primer on the basics of neural networks and their role in deep learning.
+3. [MachineLearning](MachineLearning.pdf): Tệp này trong kho lưu trữ GitHub của chúng tôi cung cấp một cái nhìn tổng quan về các thuật toán Học Máy (ML) cơ bản. Đây là nguồn tài nguyên đến khi bạn muốn hiểu về các khái niệm và kỹ thuật cơ bản trong ML, bao gồm các thuật toán chính và ứng dụng của chúng. Lý tưởng cho cả người mới bắt đầu và những người đang tìm kiếm một bài tóm tắt nhanh, tệp này bao gồm:
+* Học có giám sát: Giới thiệu về các thuật toán như Hồi quy Tuyến tính và Cây quyết định, làm nổi bật việc sử dụng chúng trong mô hình dự đoán.
+* Học không giám sát: Tổng quan về kỹ thuật phân cụm và giảm chiều.
+* Mạng Nơ-ron: Một bài giới thiệu về cơ bản của mạng nơ-ron và vai trò của chúng trong học sâu.
   
-3. [Enhanced Logistic Regression](https://github.com/HaiAu2501/Neural-Network-Training/blob/main/Enhanced%20Logistic%20Regression/LogisticRegression_NN.ipynb): In the this file, we reimagine *Logistic Regression* as a simple neural network, exploring an advanced approach to this classic algorithm. This file demonstrates the transformation of traditional *Logistic Regression* into a neural network framework, enhancing its flexibility and performance. Key features include adding additional layers to the basic model, illustrating the impact on learning and predictive capabilities, and experimenting with various weight update methods to optimize accuracy. This notebook is perfect for those interested in understanding how a fundamental machine learning algorithm can be adapted and improved through neural network concepts.
+3. [Enhanced Logistic Regression](https://github.com/HaiAu2501/Neural-Network-Training/blob/main/Enhanced%20Logistic%20Regression/LogisticRegression_NN.ipynb): Trong tệp này, chúng tôi tưởng tượng lại Hồi quy Logistic như một mạng nơ-ron đơn giản, khám phá một cách tiếp cận nâng cao đối với thuật toán cổ điển này. Tệp này minh họa sự biến đổi của Hồi quy Logistic truyền thống thành một khuôn khổ mạng nơ-ron, tăng cường sự linh hoạt và hiệu suất. Các tính năng chính bao gồm việc thêm các lớp bổ sung vào mô hình cơ bản, minh họa tác động đối với khả năng học và dự đoán, và thử nghiệm với các phương pháp cập nhật trọng số khác nhau để tối ưu hóa độ chính xác. Sổ ghi chú này hoàn hảo cho những người quan tâm đến việc hiểu cách một thuật toán học máy cơ bản có thể được thích ứng và cải thiện thông qua các khái niệm mạng nơ-ron.
    
-5. [Convolutional Neural Network](https://github.com/HaiAu2501/Neural-Network-Training/blob/main/Convolutional%20Neural%20Network/CNNforMNIST.ipynb): We delve into the basics and some simple architectures of Convolutional Neural Networks (CNNs), which are pivotal in the field of deep learning for image processing and computer vision. This file is designed to provide a clear introduction to the workings of CNNs, highlighting their unique architectural features such as convolutional layers, pooling layers, and fully connected layers. Additionally, it covers the implementation and experimentation of CNNs on the MNIST dataset, a standard benchmark in machine learning for handwritten digit recognition. This resource is ideal for those starting in deep learning or looking to understand the fundamental concepts and applications of CNNs in image processing.
+5. [Convolutional Neural Network](https://github.com/HaiAu2501/Neural-Network-Training/blob/main/Convolutional%20Neural%20Network/CNNforMNIST.ipynb): Chúng tôi đi sâu vào cơ bản và một số kiến trúc đơn giản của Mạng Nơ-ron Tích chập (CNN), đóng một vai trò then chốt trong lĩnh vực học sâu cho xử lý hình ảnh và thị giác máy tính. Tệp này được thiết kế để cung cấp một giới thiệu rõ ràng về cách hoạt động của CNN, làm nổi bật các đặc điểm kiến trúc độc đáo của chúng như các lớp tích chập, lớp gộp và lớp kết nối đầy đủ. Ngoài ra, nó bao gồm việc triển khai và thử nghiệm CNN trên tập dữ liệu MNIST, một chuẩn mực trong học máy để nhận dạng chữ số viết tay. Tài nguyên này lý tưởng cho những người mới bắt đầu trong học sâu hoặc muốn hiểu các khái niệm cơ bản và ứng dụng của CNN trong xử lý hình ảnh.
    
-7. [Genetic Algorithm](https://github.com/HaiAu2501/Neural-Network-Training/tree/main/Neural%20Architecture%20Search/Genetic%20Algorithm): This comprehensive guide showcases a novel binary encoding scheme to represent CNN architectures, making it easier for the GA to traverse and optimize the neural network structure. We detail each step of the GA, from selection, crossover, and mutation, specifically tailored to enhance CNN performance. This file is a valuable resource for those looking to understand and apply evolutionary algorithms in deep learning, particularly for those interested in the intersection of genetic algorithms and neural network optimization.
+7. [Genetic Algorithm](https://github.com/HaiAu2501/Neural-Network-Training/tree/main/Neural%20Architecture%20Search/Genetic%20Algorithm): Hướng dẫn toàn diện này giới thiệu một lược đồ mã hóa nhị phân mới để biểu diễn kiến trúc CNN, giúp cho GA dễ dàng duyệt và tối ưu hóa cấu trúc mạng nơ-ron. Chúng tôi chi tiết từng bước của GA, từ lựa chọn, lai ghép và đột biến, được điều chỉnh cụ thể để tăng cường hiệu suất CNN. Tệp này là một nguồn tài nguyên quý giá cho những người muốn hiểu và áp dụng các thuật toán tiến hóa trong học sâu, đặc biệt là những người quan tâm đến giao điểm của thuật toán di truyền và tối ưu hóa mạng nơ-ron.
 
-8. [Differentiable Architecture Search](https://github.com/HaiAu2501/Neural-Network-Training/tree/main/Neural%20Architecture%20Search/Differentiable%20Architecture%20Search): This file not only introduces the foundational concept of DARTS, a gradient-based optimization technique for efficient neural network architecture search, but also explores its multiple variants and enhancements. These developments in DARTS aim to address its initial limitations and expand its applicability, offering more robust and versatile solutions in the field of Neural Architecture Search (NAS). By providing a detailed analysis of both the original framework and its evolved forms, this file serves as a valuable resource for those interested in the latest advancements in efficient and effective neural network design, showcasing how DARTS continues to be a pivotal technique in modern deep learning.
+8. [Differentiable Architecture Search](https://github.com/HaiAu2501/Neural-Network-Training/tree/main/Neural%20Architecture%20Search/Differentiable%20Architecture%20Search): Tệp này không chỉ giới thiệu khái niệm cơ bản của DARTS, một kỹ thuật tối ưu hóa dựa trên gradient cho tìm kiếm kiến trúc mạng nơ-ron hiệu quả, mà còn khám phá các biến thể và cải tiến của nó. Những phát triển trong DARTS nhằm giải quyết các hạn chế ban đầu và mở rộng khả năng áp dụng của nó, cung cấp các giải pháp mạnh mẽ và linh hoạt hơn trong lĩnh vực Tìm kiếm Kiến trúc Mạng Nơ-ron (NAS). Bằng cách cung cấp một phân tích chi tiết về cả khuôn khổ gốc và các hình thức phát triển của nó, tệp này phục vụ như một nguồn tài nguyên quý giá cho những người quan tâm đến những tiến bộ mới nhất trong thiết kế mạng nơ-ron hiệu quả và hiệu suất, cho thấy cách DARTS tiếp tục là một kỹ thuật then chốt trong học sâu hiện đại.
 
-9. [Non-dominated Sorting Genetic Algorithm](https://github.com/HaiAu2501/Neural-Network-Training/tree/main/Neural%20Architecture%20Search/Non-dominated%20Sorting%20Genetic%20Algorithm): This file focuses on leveraging NSGA-II to simultaneously minimize error and latency in neural network architectures, addressing the dual challenge of maintaining high accuracy while ensuring efficient performance. We delve into the mechanics of NSGA-II, highlighting its ability to sort solutions based on non-domination and crowding distance, which facilitates finding a set of optimal solutions balancing both objectives. This comprehensive guide is particularly insightful for those interested in advanced optimization techniques for neural networks, demonstrating the practical use of NSGA-II in achieving a trade-off between competing objectives such as error minimization and latency reduction.
+9. [Non-dominated Sorting Genetic Algorithm](https://github.com/HaiAu2501/Neural-Network-Training/tree/main/Neural%20Architecture%20Search/Non-dominated%20Sorting%20Genetic%20Algorithm): Tệp này tập trung vào việc tận dụng NSGA-II để cùng lúc giảm thiểu lỗi và độ trễ trong kiến trúc mạng nơ-ron, giải quyết thách thức kép của việc duy trì độ chính xác cao trong khi đảm bảo hiệu suất hiệu quả. Chúng tôi đi sâu vào cơ chế của NSGA-II, làm nổi bật khả năng của nó trong việc sắp xếp các giải pháp dựa trên không thống trị và khoảng cách đám đông, điều này tạo điều kiện tìm kiếm một tập hợp các giải pháp tối ưu cân nhắc cả hai mục tiêu. Hướng dẫn toàn diện này đặc biệt sâu sắc cho những người quan tâm đến các kỹ thuật tối ưu hóa tiên tiến cho mạng nơ-ron, minh họa sử dụng thực tế của NSGA-II trong việc đạt được sự cân nhắc giữa các mục tiêu cạnh tranh như giảm thiểu lỗi và giảm độ trễ.
 
-10. [Zero-cost Proxies](https://github.com/HaiAu2501/Neural-Network-Training/blob/main/Zero-cost%20Proxies.pdf): This file presents an in-depth exploration of zero-cost proxy measures used in the field of Neural Architecture Search (NAS). This innovative approach focuses on evaluating and predicting the performance of neural network architectures without the computational burden of full training. The file delves into various zero-cost proxies, examining their effectiveness in estimating network performance quickly and efficiently. It highlights how these proxies can dramatically reduce the computational resources and time required in the NAS process, making it more accessible and practical. This guide is particularly valuable for those looking to streamline their NAS workflows, offering insights into leveraging zero-cost proxies for efficient architecture evaluation and selection.
+10. [Zero-cost Proxies](https://github.com/HaiAu2501/Neural-Network-Training/blob/main/Zero-cost%20Proxies.pdf): Tệp này trình bày một sự khám phá sâu rộng về các biện pháp đại diện proxy không tốn kém được sử dụng trong lĩnh vực Tìm kiếm Kiến trúc Mạng Nơ-ron (NAS). Cách tiếp cận sáng tạo này tập trung vào việc đánh giá và dự đoán hiệu suất của kiến trúc mạng nơ-ron mà không cần gánh nặng tính toán của việc huấn luyện đầy đủ. Tệp đi sâu vào các proxy không tốn kém khác nhau, kiểm tra hiệu quả của chúng trong việc ước lượng hiệu suất mạng nhanh chóng và hiệu quả. Nó làm nổi bật cách những proxy này có thể giảm đáng kể nguồn tài nguyên tính toán và thời gian cần thiết trong quá trình NAS, làm cho nó trở nên dễ tiếp cận và thực tế hơn. Hướng dẫn này đặc biệt quý giá cho những người muốn tối ưu hóa quy trình làm việc NAS của họ, cung cấp thông tin chi tiết về việc tận dụng các proxy không tốn kém để đánh giá và chọn kiến trúc hiệu quả.
 
-# State-of-the-Art Approaches in Neural Architecture Search
-Our project aligns with current trends in NAS by incorporating some of the most powerful and widely-adopted methods in this research area. Here is an overview of these approaches:
-# Evolutionary Algorithms
-* Overview: Evolutionary algorithms mimic the process of natural evolution, using techniques like mutation, crossover, and selection to evolve neural network architectures over generations.
-* Strengths: These algorithms are highly effective in exploring large and complex search spaces and often find innovative architectures that might be overlooked by more deterministic methods.
+# Các Phương pháp Tiên tiến trong Tìm kiếm Kiến trúc Mạng Nơ-ron
+Dự án của chúng tôi phù hợp với các xu hướng hiện tại trong NAS bằng cách kết hợp một số phương pháp mạnh mẽ và được áp dụng rộng rãi nhất trong lĩnh vực nghiên cứu này. Dưới đây là một cái nhìn tổng quan về những phương pháp này:
 
-> In our exploration of Evolutionary Algorithms (EAs) for Neural Architecture Search (NAS), a pivotal aspect is the multi-objective optimization. This approach is essential for balancing various competing factors in neural network design, such as accuracy, computational complexity, memory usage, and energy efficiency.
+# Thuật toán Tiến hóa
+* Tổng quan: Thuật toán tiến hóa mô phỏng quá trình tiến hóa tự nhiên, sử dụng các kỹ thuật như đột biến, lai ghép và lựa chọn để phát triển kiến trúc mạng nơ-ron qua các thế hệ.
+* Ưu điểm: Những thuật toán này rất hiệu quả trong việc khám phá không gian tìm kiếm lớn và phức tạp và thường tìm ra các kiến trúc sáng tạo mà có thể bị bỏ qua bởi các phương pháp quyết định hơn.
+
+> Trong khám phá của chúng tôi về Thuật toán Tiến hóa (EAs) cho Tìm kiếm Kiến trúc Mạng Nơ-ron (NAS), một khía cạnh then chốt là tối ưu hóa đa mục tiêu. Phương pháp này thiết yếu để cân nhắc giữa các yếu tố cạnh tranh trong thiết kế mạng nơ-ron, như độ chính xác, độ phức tạp tính toán, sử dụng bộ nhớ và hiệu quả năng lượng.
 > 
->> *Balancing Competing Factors:* The core challenge in NAS is not solely maximizing accuracy, but rather finding an architecture that offers an optimal balance between performance and resource constraints. EAs are uniquely equipped to handle this challenge due to their ability to evolve a diverse set of solutions concurrently.
+>> *Cân nhắc giữa các Yếu tố Cạnh tranh:* Thách thức cốt lõi trong NAS không chỉ là tối đa hóa độ chính xác, mà thay vào đó là tìm kiếm một kiến trúc cung cấp sự cân nhắc tối ưu giữa hiệu suất và ràng buộc tài nguyên. EAs độc đáo trong việc xử lý thách thức này do khả năng của chúng phát triển một tập hợp đa dạng các giải pháp cùng một lúc.
 >
->> *Pareto Front Exploration:* Our focus is on identifying the Pareto front of solutions, where each solution is not dominated by any other in all objectives. This method ensures that the architectures we discover are not just good in one aspect (like accuracy) but are also efficient in terms of computational resources and other factors.
+>> *Khám phá Biên Pareto:* Chúng tôi tập trung vào việc xác định Pareto front của các giải pháp, nơi mỗi giải pháp không bị thống trị bởi bất kỳ giải pháp nào khác trong tất cả các mục tiêu. Phương pháp này đảm bảo rằng các kiến trúc chúng tôi khám phá ra không chỉ tốt về một khía cạnh (như độ chính xác) mà còn hiệu quả về mặt tài nguyên tính toán và các yếu tố khác.
 >
->> *Customized Fitness Functions:* To evaluate and rank architectures, we implement customized fitness functions within the evolutionary process. These functions are designed to assess multiple criteria simultaneously, providing a comprehensive measure of an architecture's overall effectiveness.
+>> *Các Hàm thích nghi Tùy chỉnh:* Để đánh giá và xếp hạng kiến trúc, chúng tôi triển khai các hàm fitness tùy chỉnh trong quá trình tiến hóa. Những hàm này được thiết kế để đánh giá đồng thời nhiều tiêu chí, cung cấp một biện pháp toàn diện về hiệu quả tổng thể của một kiến trúc.
 >
->> *Diverse Architectural Innovations:* By leveraging EAs for multi-objective optimization, we aim to uncover a range of architectures that offer diverse trade-offs. This variety is crucial for catering to different application needs, where the importance of objectives like speed, size, and accuracy can vary greatly.
+>> *Đổi mới Kiến trúc Đa dạng:* Bằng cách tận dụng EAs cho tối ưu hóa đa mục tiêu, chúng tôi nhằm khám phá một loạt các kiến trúc cung cấp sự cân nhắc đa dạng. Sự đa dạng này rất quan trọng để phục vụ cho các nhu cầu ứng dụng khác nhau, nơi mức độ quan trọng của các mục tiêu như tốc độ, kích thước và độ chính xác có thể thay đổi rất nhiều.
 >
-> Through the integration of multi-objective optimization in our evolutionary algorithms, we aim to push the boundaries of NAS, uncovering efficient and effective neural network architectures that are well-suited to a variety of real-world applications.
+> Thông qua việc tích hợp tối ưu hóa đa mục tiêu vào thuật toán tiến hóa của chúng tôi, chúng tôi nhằm mở rộng giới hạn của NAS, khám phá các kiến trúc mạng nơ-ron hiệu quả và hiệu suất phù hợp với nhiều ứng dụng thực tế.
 
 
-# Reinforcement Learning
-* Overview: In NAS, RL is employed where an agent learns to construct neural architectures by receiving rewards based on their performance.
-* Advantages: RL-based methods have been successful in automatically designing architectures that rival the best human-designed models, especially in fields like computer vision and natural language processing.
-# Gradient-Based Optimization
-* Overview: This approach involves optimizing the architecture search space using gradient descent, making the search process differentiable.
-* Significance: Gradient-based methods have gained popularity due to their efficiency and ability to scale, as they can directly optimize architectures based on their performance.
-# Bayesian Optimization
-* Overview: Bayesian optimization is a strategy for global optimization of objective functions that are expensive to evaluate. It's particularly useful for optimizing hyperparameters of machine learning models.
-* Application in NAS: It is used in NAS for efficiently navigating the search space, balancing the exploration of new architectures and the exploitation of known good architectures.
-# Neural Predictor Models
-* Overview: These models predict the performance of neural architectures without fully training them, greatly reducing the computational resources required for NAS.
-* Benefits: By using predictive models, NAS can be accelerated, allowing for quicker iterations and exploration of more diverse architectures.
-# Hybrid Approaches
-* Integration of Methods: We also explore hybrid approaches, which combine elements of different methods (like evolutionary algorithms with RL) to leverage their complementary strengths and mitigate limitations.
+# Học Tăng cường
+* Tổng quan: Trong NAS, RL được sử dụng nơi một tác nhân học cách xây dựng kiến trúc mạng nơ-ron bằng cách nhận phần thưởng dựa trên hiệu suất của chúng.
+* Ưu điểm: Các phương pháp dựa trên RL đã thành công trong việc tự động thiết kế kiến trúc cạnh tranh với những mô hình do con người thiết kế tốt nhất, đặc biệt trong các lĩnh vực như thị giác máy tính và xử lý ngôn ngữ tự nhiên.
+  
+# Tối ưu hóa Dựa trên Gradient
+* Tổng quan: Phương pháp này liên quan đến việc tối ưu hóa không gian tìm kiếm kiến trúc bằng cách sử dụng gradient descent, làm cho quá trình tìm kiếm có thể khác biệt.
+* Ý nghĩa: Các phương pháp dựa trên gradient đã trở nên phổ biến do hiệu quả và khả năng mở rộng của chúng, vì chúng có thể tối ưu hóa trực tiếp kiến trúc dựa trên hiệu suất của chúng.
+  
+# Tối ưu hóa Bayesian
+* Tổng quan: Tối ưu hóa Bayesian là một chiến lược tối ưu hóa toàn cục cho các hàm mục tiêu mà việc đánh giá là tốn kém. Nó đặc biệt hữu ích cho việc tối ưu hóa các tham số siêu dạng của các mô hình học máy.
+* Ứng dụng trong NAS: Nó được sử dụng trong NAS để điều hướng hiệu quả không gian tìm kiếm, cân nhắc giữa việc khám phá các kiến trúc mới và khai thác các kiến trúc tốt đã biết.
+  
+# Mô hình Dự đoán Nơ-ron
+* Tổng quan: Những mô hình này dự đoán hiệu suất của các kiến trúc mạng nơ-ron mà không cần huấn luyện đầy đủ chúng, giảm đáng kể nguồn tài nguyên tính toán cần thiết cho NAS.
+* Lợi ích: Bằng cách sử dụng các mô hình dự đoán, NAS có thể được tăng tốc, cho phép lặp lại nhanh chóng hơn và khám phá các kiến trúc đa dạng hơn.
+  
+# Các Phương pháp Kết hợp
+* Tích hợp các Phương pháp: Chúng tôi cũng khám phá các phương pháp kết hợp, vận dụng đồng thời các yếu tố của các phương pháp khác nhau (như thuật toán tiến hóa với RL) để tận dụng sức mạnh bổ sung của chúng và giảm thiểu hạn chế.
 
-Our research is dedicated to not only implementing these state-of-the-art methods but also to innovating and contributing to the evolution of NAS techniques. We aim to push the boundaries of what's possible in automated neural network design.
+Nghiên cứu của chúng tôi không chỉ tập trung vào việc triển khai những phương pháp tiên tiến nhất mà còn đổi mới và đóng góp vào sự phát triển của các kỹ thuật NAS. Chúng tôi nhằm mở rộng giới hạn của những gì có thể trong thiết kế mạng nơ-ron tự động.
